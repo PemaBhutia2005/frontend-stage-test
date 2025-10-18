@@ -29,3 +29,7 @@
 	margin-bottom: 8px;
 	color: #ffe81f;
 }
+
+.character-card-link {
+	text-decoration: none;
+}
