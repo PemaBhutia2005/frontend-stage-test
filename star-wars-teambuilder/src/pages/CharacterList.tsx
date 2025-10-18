@@ -1,5 +1,6 @@
 import { useEffect, useState } from "react";
 import axios from "axios";
+import type { Character } from "../types/Character";
 
 const CharacterList = () => {
 	const [characters, setCharacters] = useState<Character[]>([]);
