@@ -1,0 +1,15 @@
+.character-list {
+	padding: 20px;
+}
+
+.character-list-title {
+	font-size: 2rem;
+	color: #fff;
+	margin-bottom: 20px;
+}
+
+.character-grid {
+	display: grid;
+	grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
+	gap: 16px;
+}
